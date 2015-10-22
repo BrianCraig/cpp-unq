@@ -4,7 +4,6 @@
 class Dir {
 public:
   Dir();
-  virtual ~Dir();
   int Getdirection() {
     return direction;
   }

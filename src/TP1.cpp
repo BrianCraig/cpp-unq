@@ -30,4 +30,11 @@ int sumaPar(int* x){
 int maxDelPar(int* x){
   return maximo(x[0],x[1]);
 }
+int siempreSiete(void* a){
+  return 7;
+}
+template <class Any>
+Any loMismo(Any x){
+  return x;
+}
 }

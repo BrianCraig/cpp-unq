@@ -1,6 +1,8 @@
+#include <All-Tests.h>
+#include <Test.h>
 #include <Tree.h>
+using namespace Test;
 
-int main () {
+void tree_test() {
   Tree* t1 = new Tree;
-  return 0;
 }

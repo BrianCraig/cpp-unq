@@ -1,13 +1,7 @@
 #include "Dir.h"
-#include <iostream>
-using namespace std;
 
 Dir::Dir() {
   direction = 4;
-}
-
-Dir::~Dir() {
-  //dtor
 }
 
 bool Dir::operator== (const Dir& o) {

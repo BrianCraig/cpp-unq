@@ -12,6 +12,9 @@ namespace TP1{
   int segunda(int []);
   int sumaPar(int []);
   int maxDelPar(int []);
+  template <class Any>
+  Any loMismo(Any);
+  int siempreSiete(void*);
 }
 
 #endif // TP1_H_INCLUDED

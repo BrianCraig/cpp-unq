@@ -1,16 +1,16 @@
+#include <All-Tests.h>
 #include <Dir.h>
-#include <iostream>
-using namespace std;
+#include <Test.h>
+using namespace Test;
 
-int main() {
+void dir_test() {
   Dir* a = new Dir();
   Dir* b = new Dir();
   a->este();
   b->oeste();
-  cout << "a deberia ser este: " << a->esEste() << endl;
-  cout << "a deberia no ser oeste: " << !a->esOeste() << endl;
-  cout << "a deberia no ser igual a b: " << !(*a==*b) << endl;
+  assert_true("Dir a deberia ser este", a->esEste());
+  assert_false("Dir a deberia no ser oeste", a->esOeste());
+  assert_false("Dir a deberia no ser igual a Dir b", (*a==*b));
   b->opuesto();
-  cout << "a deberia ser igual a b: " << (*a==*b) << endl;
-  return 0;
+  assert_true("Dir a deberia ser igual a Dir b",(*a==*b));
 }
