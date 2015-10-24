@@ -33,21 +33,47 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="include/All-Tests.h" />
 		<Unit filename="include/Dir.h" />
+		<Unit filename="include/Lista.h" />
+		<Unit filename="include/Pokemon.h" />
 		<Unit filename="include/TP1.h" />
 		<Unit filename="include/Test.h" />
 		<Unit filename="include/Tree.h" />
+		<Unit filename="main.cpp" />
 		<Unit filename="src/Dir-Test.cpp">
+			<Option compile="0" />
 			<Option link="0" />
 		</Unit>
-		<Unit filename="src/Dir.cpp" />
-		<Unit filename="src/TP1-Test.cpp" />
-		<Unit filename="src/TP1.cpp" />
-		<Unit filename="src/Test.cpp" />
+		<Unit filename="src/Dir.cpp">
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Unit filename="src/Lista.cpp" />
+		<Unit filename="src/Pokemon-Test.cpp" />
+		<Unit filename="src/Pokemon.cpp" />
+		<Unit filename="src/TP1-Test.cpp">
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Unit filename="src/TP1.cpp">
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Unit filename="src/Test/Rutina.cpp" />
+		<Unit filename="src/Test/Test.cpp">
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Unit filename="src/Test/Unidad.cpp" />
 		<Unit filename="src/Tree-Test.cpp">
+			<Option compile="0" />
 			<Option link="0" />
 		</Unit>
-		<Unit filename="src/Tree.cpp" />
+		<Unit filename="src/Tree.cpp">
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
 		<Extensions>
 			<code_completion />
 			<debugger />

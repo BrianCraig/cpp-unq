@@ -3,6 +3,7 @@
 #include <Tree.h>
 using namespace Test;
 
-void tree_test() {
+void tree_test(RutinaNode * r) {
   Tree* t1 = new Tree;
+  r->finalizar();
 }
